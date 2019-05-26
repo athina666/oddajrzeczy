@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.yellow_section_container {
+    width: 100%;
+    display: flex;
+    background-image: url('./images/500_F_172748099_PBFcvsshw5tpaZXIMvE4Q6ASFvIGozW3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: space-evenly;
+    padding: 40px;
+} 
+
+.yellow_section_container_element {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.yellow_section_container_element span,p {
+    font-family: 'Lato', sans-serif;
+}
+
+.span_number {
+    font-size: 35px;
+    padding: 7px;
+}
+
+.span_text {
+    padding: 5px;
+    font-size: 17px;
+    padding-bottom: 7px;
+}
+
+p {
+    font-size: 13px;
+}
