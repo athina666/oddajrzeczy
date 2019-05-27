@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import './Header.css';
+import YellowSection from '../YellowSection/YellowSection'
+import AboutUs from '../AboutUs/AboutUs';
 
 
-class Header extends Component {
+class Home extends Component {
     render() {
       return (
        <div className="header_container">
@@ -17,8 +19,10 @@ class Header extends Component {
                         <div className="left_button">Zorganizuj zbiorke</div>
             </div>
           </div>
-
+              <YellowSection />
+               <AboutUs />
        </div>
+       
       );
     }
   }
@@ -27,6 +31,6 @@ class Header extends Component {
 
 
 
-  export default Header; 
+  export default Home; 
 
  

@@ -1,22 +1,32 @@
 import React,{Component} from 'react';
-//import Header from './components/Header/Header';
 import './App.css';
-//import YellowSection from './components/YellowSection/YellowSection'
-//import AboutUs from './components/AboutUs/AboutUs';
-import Nav from './components/Header/Nav';
-import LogInSignIn from './components/Header/LogInSignIn';
-import UnloggedView from './components/UnloggedView/UnloggedView';
+import { BrowserRouter , Route, Switch} from 'react-router-dom';
+import SignForm from './components/pages/SignForm';
+import LogInForm from './components/pages/LogInForm';
+
+import Header from './components/Header';
+import Home from './components/Header/Home';
 
 
+{/* <LogInSignIn />
+<Nav />
+<UnloggedView /> */}
 
 class App extends Component {
   render() {
     return (
-     <div>
-        <LogInSignIn />
-        <Nav />
-        <UnloggedView />
-     </div>
+      <BrowserRouter className="header_container">
+            <Header />
+             <Switch>
+                <Route exact path="/" component={Home}></Route>
+                <Route exact path="/log-in" component={LogInForm}></Route>
+                <Route exact path="/sign-in" component={SignForm}></Route>
+                {/* <Route component={Error} /> */}
+                
+             </Switch>
+    
+          
+    </BrowserRouter>
     );
   }
 }
