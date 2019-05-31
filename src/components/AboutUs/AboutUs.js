@@ -12,6 +12,8 @@ function AboutUs () {
             <p>Lorem ipsum dolor sit amet,
                  consectetur adipiscing elit, sed do eiusmod tempor incididunt 
                  ut labore et dolore magna aliqua.
+                 Bacon ipsum dolor amet short ribs brisket venison rump drumstick pig sausage 
+                 prosciutto chicken spare ribs salami picanha doner.
             </p>
         </div>
 
