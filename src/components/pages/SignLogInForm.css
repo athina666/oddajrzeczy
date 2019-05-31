@@ -1,0 +1,44 @@
+.log_in_form {
+    display: flex;
+    flex-direction: column; 
+    margin-top: 50px; 
+    width: 100%;
+    background: white;
+    height: 85vh;
+    border:solid grey 1px; 
+    padding-top: 30px;
+ }
+
+ .log_in_form input {
+    border:none;
+    padding: 7px;
+ }
+
+ .log_in_form label {
+     font-size: 20px;
+     margin-left: 27%;
+     padding: 20px;
+     border-bottom:solid 1px grey;
+     width: 35%;
+ }
+
+ /* .log_in_form label::after {
+     content: "";
+     border:solid grey 1px;
+     width: 50px;
+ } */
+
+ .log_in_form h1 {
+    margin-left: 40%;
+ }
+
+ .decoration_log_in {
+    background-image: url('./images/decoration.png');
+    background-size: contain;
+    width: 180px;
+    height: 40px;
+    background-repeat: no-repeat;
+    margin-top: 25px;
+    margin-left: 40%;
+ }
+

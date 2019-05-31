@@ -1,12 +1,17 @@
 import React, { Component } from 'react';
-import './LogInForm.css';
-
+import './SignLogInForm.css';
+import {Link} from 'react-router-dom';
 
 class LogInForm extends Component {
     render() {
         return (
-           <div>
+           <div className="log_in_form_container">
+
                 <form className="log_in_form">
+
+                <h1 className="log_in_form_container">Zaloguj sie</h1>
+                <div className="decoration_log_in"></div>
+
                     <label>
                         Email:
                         <input type="text" email="email" />
@@ -17,7 +22,7 @@ class LogInForm extends Component {
                         <input type="text" password="password" />
                     </label>
 
-            <input type="submit" value="Submit" />
+                    <Link to="/" />
 
         
           </form>
